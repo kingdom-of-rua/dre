@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="dre.js"></script>
+</head>
+<body>
+    <input id='de' type="text">
+    <button onclick='document.getElementById(`res`).innerHTML=dreDecode(document.getElementById(`de`).value)'>decode</button>
+    <button onclick='document.getElementById(`res`).innerHTML=dreEncode(document.getElementById(`de`).value)'>encode</button>
+    <p id='res'></p>
+</body>
+</html>
